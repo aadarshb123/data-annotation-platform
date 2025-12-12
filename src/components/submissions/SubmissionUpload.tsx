@@ -51,9 +51,6 @@ export function SubmissionUpload({ onSuccess }: SubmissionUploadProps) {
         <p className="text-gray-600 mb-3">
           Select a JSON file from your computer
         </p>
-        <div className={styles.fileInfo}>
-          📄 Supports .json format only
-        </div>
       </div>
 
       <input

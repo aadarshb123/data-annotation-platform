@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        // BeSimple AI Brand Colors
+        // Brand Colors
         primary: {
           50: '#fef8ec',
           100: '#fceeca',

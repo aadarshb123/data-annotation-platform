@@ -22,9 +22,9 @@ interface ResultsChartsProps {
 }
 
 const COLORS = {
-  pass: '#5f8f4f',    // BeSimple AI green
+  pass: '#5f8f4f',    // Brand green
   fail: '#dc2626',    // Red
-  inconclusive: '#eda436', // BeSimple AI orange
+  inconclusive: '#eda436', // Brand orange
 };
 
 const styles = {

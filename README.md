@@ -1,8 +1,8 @@
-# AI Evaluation Platform - BeSimple AI Take-Home Challenge
+# Data Annotation Platform
 
 ## Overview
 
-Web app for evaluating annotation quality at scale.
+A web application for evaluating annotation quality at scale.
 Upload submissions, configure AI judges, assign them to questions, and run automated evaluations using OpenAI or Anthropic models.
 
 ## Features
@@ -70,7 +70,7 @@ User views results → Real-time display with filtering/charts
 ```bash
 # Clone the repository
 git clone <repository-url>
-cd besimpleai
+cd data-annotation-platform
 
 # Install dependencies
 npm install
@@ -88,10 +88,10 @@ cd ..
 firebase login
 
 # Create a new Firebase project (or use existing)
-firebase projects:create besimpleai-challenge
+firebase projects:create data-annotation-platform
 
 # Select your project
-firebase use besimpleai-challenge
+firebase use data-annotation-platform
 
 # Initialize Firebase (if needed)
 firebase init
@@ -166,7 +166,7 @@ The application will be available at `http://localhost:5173`
 ## Project Structure
 
 ```
-besimpleai/
+data-annotation-platform/
 ├── src/
 │   ├── components/          
 │   │   ├── evaluations/     # Evaluation runner

@@ -7,8 +7,6 @@ Upload submissions, configure AI judges, assign them to questions, and run autom
 
 ## Features
 
-### Core Requirements
-
 - **Data Ingestion**: Upload submissions via JSON file with validation
 - **Submission Display**: View all submissions organized by queue with metadata
 - **AI Judge CRUD**: Create, view, edit, and deactivate AI judges with custom criteria
@@ -16,9 +14,6 @@ Upload submissions, configure AI judges, assign them to questions, and run autom
 - **Evaluation Runner**: Execute evaluations with real-time progress tracking
 - **Results View**: Display all evaluations with verdicts and detailed reasoning
 - **Filtering**: Filter results by judge, question, and verdict
-
-### Bonus Features
-
 - **Data Visualization**: Interactive charts showing pass rates by judge and verdict distribution
 - **CSV Export**: Export filtered evaluations with all metadata for reporting
 
